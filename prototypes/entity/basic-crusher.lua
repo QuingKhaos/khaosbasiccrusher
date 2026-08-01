@@ -23,11 +23,11 @@ local entity = khaoslib_entity:load {
   damaged_trigger_effect = hit_effects.entity(),
   module_slots = 0,
   icons_positioning = {
-    {inventory_index = defines.inventory.furnace_modules, shift = {0, 0.3}},
+    {inventory_index = defines.inventory.crafter_modules, shift = {0, 0.3}},
   },
   icon_draw_specification = {shift = {0.05, 0}, scale = 0.5},
   allowed_effects = {"consumption", "speed", "productivity", "pollution"},
-  crafting_categories = {"basic-crushing", "basic-crushing-or-hand-crafting"},
+  crafting_categories = {"basic-crushing"},
   crafting_speed = 2,
   energy_usage = "100kW",
   energy_source = {

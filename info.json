@@ -4,12 +4,12 @@
   "description": "Adds a basic crusher to the base game, which can be used as an alternative to assembly machines or furnaces.",
   "author": "QuingKhaos",
   "homepage": "https://discord.gg/SYmkaDjFCt",
-  "version": "1.0.0",
-  "factorio_version": "2.0",
+  "version": "2.0.0",
+  "factorio_version": "2.1",
   "dependencies": [
-    "base >= 2.0.77",
+    "base >= 2.1.12",
 
-    "khaoslib >= 1.19.0"
+    "khaoslib >= 2.2.0"
   ],
   "package": {
     "ignore": [
@@ -20,5 +20,5 @@
       "**/*.xcf"
     ]
   },
-  "expansion_shaders_required": true
+  "expansion_required": true
 }
