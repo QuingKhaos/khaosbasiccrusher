@@ -19,5 +19,6 @@
       "**/*.svg",
       "**/*.xcf"
     ]
-  }
+  },
+  "expansion_shaders_required": true
 }

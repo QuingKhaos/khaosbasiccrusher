@@ -4,4 +4,6 @@
 
 Adds a basic crusher to the base game, which can be used as an alternative to assembly machines or furnaces.
 
-Mod does not change any recipes on its own, but can be used by other mods to add new recipes for the crusher.
+Mod does not change any recipes on its own, but can be used by other mods to add new recipes for the crusher. Use `basic-crushing` or `basic-crushing-or-hand-crafting` in Factorio 2.0, or `basic-crushing` in Factorio 2.1 as the crafting category for recipes that should be craftable in the basic crusher. For Factorio 2.1 add the `hand-crafting` crafting category to the recipe to allow hand-crafting.
+
+Requires the Space Age DLC to be bought and installed, but does not require it to be enabled as mod. Check for `data.raw["assembling-machine"]["basic-crusher"] ~= nil` before assigning the recipe to the basic crusher, if you just optionally require/recommend the mod in your dependencies.
