@@ -15,7 +15,6 @@
 
     "khaosdev",
     "ghost-logistics",
-    "remove-animations",
 
     "barrel-stages",
     "barreling-group2",
@@ -25,6 +24,6 @@
     "khaostransportgroup",
     "science-tab",
 
-    "+ khaosbasiccrusher"
+    "khaosbasiccrusher"
   ]
 }

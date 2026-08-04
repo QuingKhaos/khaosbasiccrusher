@@ -5,8 +5,7 @@ khaoslib_recipe:load {
   name = "basic-crusher",
   enabled = false,
   energy_required = 2.5,
-} :set_icons {{icon = "__khaosbasiccrusher__/graphics/icons/basic-crusher.png", icon_size = 64, scale = 0.8, tint = {0.7, 0.7, 0.7}}}
-  :set_categories {"crafting"}
+} :set_categories {"crafting"}
   :set_ingredients {
     {type = "item", name = "steel-plate", amount = 10},
     {type = "item", name = "iron-plate", amount = 10},
