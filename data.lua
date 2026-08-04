@@ -10,4 +10,3 @@ end
 require("__khaosbasiccrusher__.prototypes.item.basic-crusher")
 
 require("__khaosbasiccrusher__.prototypes.recipe.basic-crusher")
-
