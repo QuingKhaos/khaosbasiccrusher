@@ -1,3 +1,4 @@
+require("__khaosbasiccrusher__.prototypes.entity.circuit-network-sa")
 local hit_effects = require("__base__.prototypes.entity.hit-effects")
 local sounds = require("__base__.prototypes.entity.sounds")
 local khaoslib_entity = require("__khaoslib__.prototypes.entity")
@@ -39,7 +40,7 @@ local entity = khaoslib_entity:load {
   close_sound = sounds.mech_small_close,
   working_sound = {
     sound = {
-      filename = "__khaosbasiccrusher__/sound/entity/basic-crusher/basic-crusher-loop.ogg",
+      filename = "__khaosbasiccrusher__/sound/entity/basic-crusher-sa/basic-crusher-loop.ogg",
       volume = 0.8,
       audible_distance_modifier = 0.6,
     },
@@ -47,10 +48,10 @@ local entity = khaoslib_entity:load {
     fade_out_ticks = 20,
     max_sounds_per_prototype = 3,
   },
-  graphics_set = require("__khaosbasiccrusher__.prototypes.entity.basic-crusher-pictures"),
+  graphics_set = require("__khaosbasiccrusher__.prototypes.entity.basic-crusher-sa-pictures"),
   water_reflection = {
     pictures = {
-      filename = "__khaosbasiccrusher__/graphics/entity/basic-crusher/basic-crusher-reflection.png",
+      filename = "__khaosbasiccrusher__/graphics/entity/basic-crusher-sa/basic-crusher-reflection.png",
       priority = "extra-high",
       width = 24,
       height = 24,
@@ -61,7 +62,7 @@ local entity = khaoslib_entity:load {
     rotate = false,
     orientation_to_variation = false,
   },
-} :set_icons {{icon = "__khaosbasiccrusher__/graphics/icons/basic-crusher.png", icon_size = 64, scale = 0.8, tint = {0.7, 0.7, 0.7}}}
+} :set_icons {{icon = "__khaosbasiccrusher__/graphics/icons/basic-crusher-sa.png", icon_size = 64, scale = 0.8, tint = {0.7, 0.7, 0.7}}}
   :set_minable {mining_time = 0.2, result = "basic-crusher"}
 
 if mods["quality"] then

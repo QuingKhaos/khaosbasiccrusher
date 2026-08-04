@@ -1,7 +1,7 @@
 --- @diagnostic disable: generic-constraint-mismatch
 
 local function crusher_integration_patch_horizontal()
-  return util.sprite_load("__khaosbasiccrusher__/graphics/entity/basic-crusher/basic-crusher-horizontal-integration",
+  return util.sprite_load("__khaosbasiccrusher__/graphics/entity/basic-crusher-sa/basic-crusher-horizontal-integration",
   {
     scale = 0.5 * 0.5,
     shift = {0,0},
@@ -10,7 +10,7 @@ local function crusher_integration_patch_horizontal()
 end
 
 local function crusher_integration_patch_vertical()
-  return util.sprite_load("__khaosbasiccrusher__/graphics/entity/basic-crusher/basic-crusher-vertical-integration",
+  return util.sprite_load("__khaosbasiccrusher__/graphics/entity/basic-crusher-sa/basic-crusher-vertical-integration",
   {
     scale = 0.5 * 0.5,
     shift = util.by_pixel(0.0, 15),
@@ -19,7 +19,7 @@ local function crusher_integration_patch_vertical()
 end
 
 local function crusher_animation_horizontal_main()
-  return util.sprite_load("__khaosbasiccrusher__/graphics/entity/basic-crusher/basic-crusher-horizontal",
+  return util.sprite_load("__khaosbasiccrusher__/graphics/entity/basic-crusher-sa/basic-crusher-horizontal",
   {
     animation_speed = 0.5,
     frame_count = 48,
@@ -30,7 +30,7 @@ local function crusher_animation_horizontal_main()
 end
 
 local function crusher_animation_horizontal_shadow()
-  return util.sprite_load("__khaosbasiccrusher__/graphics/entity/basic-crusher/basic-crusher-horizontal-shadow",
+  return util.sprite_load("__khaosbasiccrusher__/graphics/entity/basic-crusher-sa/basic-crusher-horizontal-shadow",
   {
     animation_speed = 0.5,
     repeat_count = 48,
@@ -41,7 +41,7 @@ local function crusher_animation_horizontal_shadow()
 end
 
 local function crusher_animation_vertical_main()
-  return util.sprite_load("__khaosbasiccrusher__/graphics/entity/basic-crusher/basic-crusher-vertical",
+  return util.sprite_load("__khaosbasiccrusher__/graphics/entity/basic-crusher-sa/basic-crusher-vertical",
   {
     animation_speed = 0.5,
     frame_count = 48,
@@ -52,7 +52,7 @@ local function crusher_animation_vertical_main()
 end
 
 local function crusher_animation_vertical_shadow()
-  return util.sprite_load("__khaosbasiccrusher__/graphics/entity/basic-crusher/basic-crusher-vertical-shadow",
+  return util.sprite_load("__khaosbasiccrusher__/graphics/entity/basic-crusher-sa/basic-crusher-vertical-shadow",
   {
     animation_speed = 0.5,
     repeat_count = 48,
@@ -63,7 +63,7 @@ local function crusher_animation_vertical_shadow()
 end
 
 local function crusher_working_visualisations_horizontal()
-  return util.sprite_load("__khaosbasiccrusher__/graphics/entity/basic-crusher/basic-crusher-horizontal-light",
+  return util.sprite_load("__khaosbasiccrusher__/graphics/entity/basic-crusher-sa/basic-crusher-horizontal-light",
   {
     animation_speed = 0.5,
     repeat_count = 48,
@@ -75,7 +75,7 @@ local function crusher_working_visualisations_horizontal()
 end
 
 local function crusher_working_visualisations_vertical()
-  return util.sprite_load("__khaosbasiccrusher__/graphics/entity/basic-crusher/basic-crusher-vertical-light",
+  return util.sprite_load("__khaosbasiccrusher__/graphics/entity/basic-crusher-sa/basic-crusher-vertical-light",
   {
     animation_speed = 0.5,
     repeat_count = 48,

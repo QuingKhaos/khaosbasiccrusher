@@ -14,5 +14,5 @@ khaoslib_item:load {
   inventory_move_sound = item_sounds.drill_inventory_move,
   pick_sound = item_sounds.drill_inventory_pickup,
   drop_sound = item_sounds.drill_inventory_move,
-} :set_icons {{icon = "__khaosbasiccrusher__/graphics/icons/basic-crusher.png", icon_size = 64, scale = 0.8, tint = {0.7, 0.7, 0.7}}}
+} :set_icons {{icon = "__khaosbasiccrusher__/graphics/icons/basic-crusher-sa.png", icon_size = 64, scale = 0.8, tint = {0.7, 0.7, 0.7}}}
   :commit()

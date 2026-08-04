@@ -3,7 +3,7 @@ local khaoslib_entity = require("__khaoslib__.prototypes.entity")
 khaoslib_entity:load {
   type = "corpse",
   name = "basic-crusher-remnants",
-  icon = "__khaosbasiccrusher__/graphics/icons/basic-crusher.png",
+  icon = "__khaosbasiccrusher__/graphics/icons/basic-crusher-sa.png",
   flags = {"placeable-neutral", "not-on-map"},
   hidden_in_factoriopedia = true,
   subgroup = "remnants",
@@ -18,9 +18,9 @@ khaoslib_entity:load {
   final_render_layer = "remnants",
   remove_on_tile_placement = false,
   --- @diagnostic disable-next-line: generic-constraint-mismatch
-  animation = util.sprite_load("__khaosbasiccrusher__/graphics/entity/basic-crusher/remnants/basic-crusher-remnants", {
+  animation = util.sprite_load("__khaosbasiccrusher__/graphics/entity/basic-crusher-sa/remnants/basic-crusher-remnants", {
     direction_count = 4,
     scale = 0.5 * 0.5,
   })
-} :set_icons {{icon = "__khaosbasiccrusher__/graphics/icons/basic-crusher.png", icon_size = 64, scale = 0.8, tint = {0.7, 0.7, 0.7}}}
+} :set_icons {{icon = "__khaosbasiccrusher__/graphics/icons/basic-crusher-sa.png", icon_size = 64, scale = 0.8, tint = {0.7, 0.7, 0.7}}}
   :commit()
